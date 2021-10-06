@@ -14,4 +14,7 @@ cd /root/iso-profile/
 ./build.sh
 
 #Move the final ISO to /tmp to be accessible from the host
-mv /root/iso-profile/out/*.iso /tmp
+mv /root/iso-profile/out/*.iso /tmp/woofos.iso
+
+ls /tmp
+
