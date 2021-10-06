@@ -4,7 +4,7 @@
 cd /root/
 
 #Clone the lhos repo
-git clone https://github.com/woof-os/iso-profile 
+git clone https://github.com/woof-os/iso-profile /root/iso-profile 
 
 #Run the script to build the ISO
 /root/iso-profile/build.sh
