@@ -3,13 +3,8 @@
 #Placing terminal to the starting folder
 cd /root/
 
-#Ask the user where are the archiso files
-echo "Type the repo URL where the archiso files are, followed by [ENTER]"
-echo "Example: https://github.com/nlhomme/lhoslite"
-repository = "https://github.com/woof-os/iso-profile"
-
 #Clone the lhos repo
-git clone $repository
+git clone https://github.com/woof-os/iso-profile 
 
 #Go to this new working folder
 cd iso-profile 
