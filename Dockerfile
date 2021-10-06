@@ -14,7 +14,7 @@ RUN pacman -Syyu git archiso --noconfirm
 COPY buildscript.sh root/
 
 #Place the terminal in the home folder
-RUN ["chmod", "+x", "root/build.sh"]
+RUN ["chmod", "+x", "root/buildscript.sh"]
 
-ENTRYPOINT ["./root/build.sh"]
+ENTRYPOINT ["./root/buildscript.sh"]
 
