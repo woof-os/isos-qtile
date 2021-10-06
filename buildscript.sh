@@ -11,7 +11,7 @@ chmod +x /root/iso-profile/build.sh
 
 #CD and run the script to build the ISO
 cd /root/iso-profile/
-build.sh
+./build.sh
 
 #Move the final ISO to /tmp to be accessible from the host
 mv /root/iso-profile/out/*.iso /tmp
