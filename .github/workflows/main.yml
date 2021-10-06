@@ -18,6 +18,7 @@ jobs:
         run: |
           docker build --rm -t woof-os/archiso-builder:latest .
           docker run --rm -v /tmp:/tmp --privileged woof-os/archiso-builder:latest
+          docker cp woof-os woof-os/archiso-builder:tmp/woofos.iso /tmp/woofos.iso
 
       - name: Upload ISO
         uses: djn24/add-asset-to-release@v1
