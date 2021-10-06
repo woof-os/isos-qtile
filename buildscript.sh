@@ -12,7 +12,7 @@ repository = "https://github.com/woof-os/iso-profile"
 git clone $repository
 
 #Go to this new working folder
-cd $(ls|grep -Ev 'buildscript.sh')
+cd iso-profile 
 
 #Run the script to build the ISO
 ./build.sh -v
