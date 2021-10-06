@@ -2,7 +2,7 @@ name: BuildISO
 
 on:
   release:
-    types: [edited]
+    types: [create]
 
 jobs:
   build:
