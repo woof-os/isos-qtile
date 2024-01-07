@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: setup-docker
-        uses: docker-practice/actions-setup-docker@1.0.8
+        uses: docker-practice/actions-setup-docker@master
 
       - name: Build ISO
         run: |
